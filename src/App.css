@@ -1,0 +1,31 @@
+  /* navbar component */
+ .navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+ } 
+  #basic-nav-dropdown{
+padding: 0, 10px;
+font-weight: bolder;
+font-size: 18px;
+position: relative;
+
+}
+
+#basic-nav-dropdown:hover{
+    color: rgb(0, 0, 0);
+    font-size: 19.5px;
+}
+.main{
+    position: relative;
+}
+/* interview component */
+.image{
+    width: 100%;
+    max-height: 100vh;
+}
+/* Public component */
+.public{
+    width: 100%;
+    max-width:100vh ;
+}

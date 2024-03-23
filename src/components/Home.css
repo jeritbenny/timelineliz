@@ -1,0 +1,47 @@
+
+.main_div{
+    padding: 3em;
+   display: grid;
+   gap: 2em;
+   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.image_container{
+padding: 10px;
+ border-radius: .3em;
+ box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+ transition: 0.9s;
+}
+.image_container:hover{
+    transform: scale(0.9);
+}
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+}
+.btnn{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+    color: #00a037;
+    border-radius: 50px;
+    width: 200px;
+    border: none;
+    background: #e2e9f0;
+    box-shadow: 10px 10px 10px -1px rgba(14, 84, 138, 0.42) ;
+}
+.btnn:hover{
+    color:darkgreen
+}
+.head{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 25px;
+}
